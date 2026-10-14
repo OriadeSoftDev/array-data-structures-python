@@ -1,3 +1,5 @@
+""" This module demonstrates how to insert elements in a two-dimensional array."""
+
 import numpy as np
 
 two_d_array = np.array([[11,15,10,6],[10,14,11,5],[12,17,12,8],[15,18,14,9]], dtype=int)
@@ -22,3 +24,5 @@ print(new_two_d_array)
 # Appending a column to the end of an array using colum_stack() method
 new_two_d_array = np.column_stack((two_d_array, np.array([6,7,8,9])))
 print(new_two_d_array)
+
+# End-of-file (EOF)
