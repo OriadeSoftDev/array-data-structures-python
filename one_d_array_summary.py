@@ -1,18 +1,18 @@
-from array import *
+"""This module provides a summary of various one-dimensional array operations."""
+
+from array import array
 
 # 1. Create an array and traverse
-
 my_array = array('i',[1,2,3,4,5])
 
 for element in my_array:
     print(element)
-    
+
 # 2. Access an element in the array through indexes
 print("Step 2")
 print(my_array[3])
 
 # 3. Append any value to the array using append() method
-
 print("Step 3")
 my_array.append(7)
 print(my_array)
@@ -29,8 +29,8 @@ print(my_array)
 
 # 6. Add items from list into array using fromlist() method
 print("Step 6")
-tempList = [20,21,22]
-my_array.fromlist(tempList)
+temp_list = [20,21,22]
+my_array.fromlist(temp_list)
 print(my_array)
 
 # 7. Remove an array element using remove() method
