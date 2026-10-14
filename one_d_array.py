@@ -1,3 +1,5 @@
+"""This module demonstrates the use of one-dimensional arrays in Python using the array module and NumPy."""
+
 import array
 
 try:
@@ -15,7 +17,7 @@ print(my_array1)
 if np is not None:
 	np_array = np.array([], dtype=int)
 	# print(np_array)
-	np_array1 = np.array([1,2,3,4,5])
+	np_array1 = np.array([1,2,3,4,5], dtype=int)
 	# print(np_array1)
 else:
 	print("NumPy is not installed; skipping the NumPy example.")
